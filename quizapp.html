@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="quizapp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 text-center p-5 border border-secondary mt-3 mb-3">
+                <h1 class="heading">HTML & CSS</h1>
+                <h5 class="heading-h5">Instructions before starting exam</h5>
+                <ul class="list-group">
+                    <li class="list-group-item mb-1">
+                        <p class="mb-0"><b><i class="fa-solid fa-clock"></i>&nbsp;20 MCQs in 30mins</b></p>
+                        <p class="mt-0">Test will be in English. 1.5 minutes for each question.</p>
+                    </li>
+                    <li class="list-group-item mt-0 mb-1">
+                        <p class="mb-0"><b><i class="fa-solid fa-medal"></i>&nbsp;42% of marks to pass and get a badge</b></p>
+                        <p class="mt-0">Pledge to answer by yourself</p>
+                    </li>
+                    <li class="list-group-item mt-0 mb-1">
+                        <p class="mb-0"><b><i class="fa-solid fa-notes"></i>&nbsp;This your 1st attempt</b></p>
+                        <p class="mt-0">1 more allowed incase you don't pass</p>
+                    </li>
+                    <li class="list-group-item mt-0 mb-1">
+                        <p class="mb-0"><b><i class="fa-solid fa-lock-keyhole"></i>&nbsp;Results remain private</b></p>
+                        <p class="mt-0">Share with recruiers only when you pass</p>
+                    </li>
+                </ul>
+                <button class="btn btn-primary mt-5 mb-1" onclick="starttest()">Start the test &nbsp; <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="col-lg-3"></div>
+
+        </div>
+    </div>
+</body>
+<script>
+    function starttest(){
+        window.location="q&a.html"
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</html>

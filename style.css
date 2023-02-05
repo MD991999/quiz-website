@@ -1,0 +1,12 @@
+body{
+    background-image: url(images/wallpaper.jpg);
+    width:100%;
+    height:100vh;
+    background-size: cover;
+}
+.first-div{
+    position: absolute;
+    top:250px;
+    left:650px;
+    width:10%;
+}
